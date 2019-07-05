@@ -1,2 +1,3 @@
-# Dispositivos_moveis
-Repositorio para os projetos desenvolvidos na aula de Dispositivos Moveis no curso: ADS-FATEC
+# Cenourapp
+
+1ª versão, HTML e CSS simples. Baixe o zip e faça upload no *PhoneGap Build*
