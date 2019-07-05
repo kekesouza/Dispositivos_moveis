@@ -1,3 +1,3 @@
-# Cenourapp
+Dispoitivos Moveis
 
-1ª versão, HTML e CSS simples. Baixe o zip e faça upload no *PhoneGap Build*
+Repositorio para a aula de Dispositivos Moveis, com o intuito de lançar os projeto desenvolvidos ao longo das aulas.
