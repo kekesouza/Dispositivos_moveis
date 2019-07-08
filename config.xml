@@ -23,7 +23,7 @@
                 
 				<gap:platform name="android" />	
                 
-				<icon src="iconeapp.jpg" />			
+				<icon src="iconeapp.png" />			
                 
 				<gap:splash src="splash.png" />	
             
