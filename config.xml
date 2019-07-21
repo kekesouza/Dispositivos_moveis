@@ -1,31 +1,59 @@
-<?xml	version="1.0"	encoding="UTF-8"?>
-<widget	xmlns="http://www.w3.org/ns/widgets"
-								xmlns:gap="http://phonegap.com/ns/1.0"
-								id="org.sergiolopes.cenourapp"
-								version="1.0.0">
+<?xml	version='1.0'	encoding='utf-8'?> 
+   <widget	id="org.kelvinsouza.garnoapp"								
+    version="0.0.1"								
+    xmlns="http://www.w3.org/ns/widgets"
+
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
 				<name>
-								Só	de	Cenoura
+								Garçonete Só de	Cenoura
 				</name>
 				<description>
-								Menu do restaurante Só de	Cenoura.
+									App	de	uso	das	garçonetes	do restaurante Só de Cenoura. 
 				</description>
-				<author	href="http://sergiolopes.org"
-												email="qualquer@sergiolopes.org">
-								Sérgio	Lopes / Kelvin Souza
+				<author	href="http://kelvinsouza.org"
+						email="kelvin.souza2@fatec.sp.org.gov">
+						Kelvin Souza
 				</author>
 				<preference name="orientation" value="portrait" />
 				
 				<preference name="fullscreen" value="true" />
 				
 				<preference name="permissions" value="none" />
+				 
+				<preference	name="BackgroundColor"	value="0xF2F2F2FF"	/> 
+				
+				<preference	name="DisallowOverscroll"	value="true"	/> 
 				
 				<preference name="android-minSdkVersion" value="16" />
                 
 				<gap:platform name="android" />	
+				
+	            <preference name="SplashScreen" value="screen" />
+	            <preference name="SplashScreenDelay" value="3000" />
                 
-				<icon src="iconeapp.png" />			
+				<icon src="resources/android/icon/drawable-xhdpi-iconeapp.png"/>			
                 
-				<gap:splash src="splash.png" />	
+				<platform name="android">
+		                 <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
+		                 <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
+		                 <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
+		                 <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
+		                 <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
+		                 <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+		                 <splash src="resources/android/splash/drawable-port-ldpi-screen.png" density="port-ldpi"/>
+		                 <splash src="resources/android/splash/drawable-port-mdpi-screen.png" density="port-mdpi"/>
+		                 <splash src="resources/android/splash/drawable-port-hdpi-screen.png" density="port-hdpi"/>
+		                 <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+		                 <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+		                 <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+	            </platform>		
+				
+				<engine	name="android"	spec="5.0.0"	/> 
             
-             <plugin name="cordova-plugin-splashscreen" />			
+             <plugin name="cordova-plugin-splashscreen" />
+            
+            <platform	name="android">				
+			<preference	name="Fullscreen"	value="true"	/> 
+			</platform> 			
 </widget>
